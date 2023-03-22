@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--tsc -w main.ts worker.ts -t es2020-->
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Primzahlen-Rechner</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--    <link rel="stylesheet"-->
+    <!--          href="<https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css>"-->
+    <!--          integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JK"-->
+    <!--          crossorigin="anonymous"-->
+    <!--    >-->
+</head>
+<body class="base">
+<div style="text-align: center;">
+    <h1>Primzahlen-Rechner</h1>
+    <p>Hi ich kann dir Primzahlen mit dem Euklidischen Algorithmus berechen.</p>
+    <p>Output: </p>
+    <div>
+        <ol id="primliste"></ol>
+    </div>
+    <input class="base" type="text" id="inputText" size="4"></input>
+    <button class="base" id="submitButton">Button</button>
+    <div class="bottomspace"></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
